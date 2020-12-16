@@ -1,1 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: "Recoleta";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Recoleta"),
+         url("../fonts/Recoleta-Bold.woff2") format("woff2"),
+         url("../fonts/Recoleta-Bold.woff") format("woff"),
+         url("../fonts/Recoleta-Bold.eot") format("woff");
+  }

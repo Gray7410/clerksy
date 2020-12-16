@@ -3,3 +3,34 @@
 @import "fonts";
 @import "global";
 
+.header{
+    color: #FBFAF7;
+    background: #163A24;
+    &__title{
+        color: #FBFAF7;
+    }
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 58px;
+    margin: 20px auto;
+}
+
+.nav{
+    &__list{
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    &__item{
+
+    }
+    &__link{
+        text-decoration: none;
+        color: #FBFAF7
+    }
+}
