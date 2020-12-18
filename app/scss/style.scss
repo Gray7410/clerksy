@@ -81,3 +81,19 @@
         color: #FBFAF7;
     }
 }
+
+.find-fit{
+    &__title{
+        max-width: 739px;
+        text-align: center;
+    }
+    &__list{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__text{
+        margin: 0 auto;
+        max-width: 750px;
+        text-align: center;
+    }
+}
