@@ -12,6 +12,10 @@ body{
     margin: 0 auto;
 }
 
+ul{
+    list-style: none;
+}
+
 .content-title{
     font-family: 'Recoleta', sans-serif;
     font-weight: 600;
@@ -28,9 +32,13 @@ body{
 }
 
 .block{
+
     display: flex;
     justify-content: space-around;
     align-items: center;
+    &:nth-child(even){
+        flex-direction: row-reverse;
+    }
     &__content{
         max-width: 393px;
     }
