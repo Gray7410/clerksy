@@ -8,7 +8,8 @@ body{
 }
 
 .inner {
-    max-width: 1180px;
+	max-width: 1150px;
+	padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -43,7 +44,8 @@ ul{
 }
 
 .block{
-    display: flex;
+	display: flex;
+	flex-wrap: wrap;
     justify-content: space-around;
 	align-items: center;
 	&__title{
