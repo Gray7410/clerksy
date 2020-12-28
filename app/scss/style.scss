@@ -7,7 +7,7 @@
     color: #FBFAF7;
 	background: #163A24;
 	position: relative;
-	
+	overflow: hidden;
     &__title{
 		max-width: 491px;
 		color: #FBFAF7;
@@ -117,6 +117,7 @@
 }
 
 .mobile-nav {
+	text-align: center;
 	box-sizing: border-box;
 	z-index: 10;
 	display: block;
@@ -124,10 +125,9 @@
 	right: -320px;
 	top: 0;
 	padding-top: 120px;
-	padding-left: 40px;
 	height: 100%;
 	width: 320px;
-	background-color: rgba( #198C36, 0.8);
+	background-color: rgba( #FBFAF7, 0.95);
 	transition: transform 0.4s ease-in;
 	&--active {
 		transform: translateX(-100%);
@@ -142,7 +142,7 @@
 	}
 	&__link {
 		font-size: 22px;
-		color: #fff;
+		color: #163A24;
 		text-decoration: none;
 	}
 }
@@ -410,11 +410,11 @@
 			outline: none;
 		}
 		@media (max-width: 768px) {
-			max-width: 300px;
+			max-width: 400px;
 		}
-		@media (max-width: 442px) {
-			max-width: 200px;
-		}
+		// @media (max-width: 442px) {
+		// 	max-width: 300px;
+		// }
 	}
 	&__button{
 		cursor: pointer;
@@ -426,12 +426,18 @@
 			position: inherit;
 		right: 50px;
 		}
+		@media (max-width: 540px) {
+			position: relative;
+			top: 10px;
+    		left: 0;
+		}
 	}
 	&__text{
-		// max-width: 524px;
 		font-size: 14px;
 		line-height: 21px;
-
+		@media (max-width: 540px) {
+			padding-top: 15px;
+		}
 		a{
 			color: #198C36;
 			text-decoration: none;
